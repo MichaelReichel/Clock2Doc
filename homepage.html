@@ -1,1 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clockify Invoice Generator</title>
+</head>
+<body>
+    <h1>Upload Clockify CSV</h1>
+    <form action="/generate" method="POST" enctype="multipart/form-data">
+        <input type="file" name="csv_file" accept=".csv" required>
+        <button type="submit">Generate PDF Invoice</button>
+    </form>
+</body>
+</html>
 
